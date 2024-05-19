@@ -1,5 +1,5 @@
-# Stalker
-Script qui permet de voir les messages d'une personne cibler, sa log en console.log et webhook
+# 🔎 Stalker
+Script qui permet d'espionner une personne, sa log en console.log et webhook
 
 ```js
 import { Client, Message, WebhookClient, MessageEmbed, TextChannel } from 'discord.js-selfbot-v13';
