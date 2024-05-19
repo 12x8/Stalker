@@ -1,4 +1,4 @@
-# 🔎 Stalker
+# 🔎 Tracker
 Script qui permet d'espionner une personne, sa log en console.log et webhook
 
 ```js
