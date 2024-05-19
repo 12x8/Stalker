@@ -39,7 +39,7 @@ client.on('messageCreate', async (message: Message) => {
             const SkidMe = message.channel instanceof TextChannel ? message.channel.name : 'Salon inconnu';
             stalk.setTitle(message.guild.name)
             stalk.setURL(message.url)
-            stalk.setDescription(`\`\`\`ANSI\n[0;33m${message.content}\n\n[0m\`\`\``)
+            stalk.setDescription(`\`\`\`ANSI\n[0;33m${message.content}[0m\`\`\``)
             stalk.addField('Salon du message :', `<#${message.channel.id}>`)
             stalk.setTimestamp();
         } else {
